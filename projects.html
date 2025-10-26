@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Projects — Ismiley Paschal</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header_container">
+        <div class="header_structure">
+          <div class="mobile_navbar" id="mobile_navbar">
+            <ul class="mobile_listitems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <!-- <li><a href="#skills">Skills</a></li> -->
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile_button">Subscribe</button>
+          </div>
+          <div class="logo_container">
+            <h4 class="h4_head">
+              Ismiley<span class="span_head">Paschal</span>
+            </h4>
+          </div>
+          <div class="list_div hideOnMobile">
+            <ul class="list_items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <!-- <li><a href="#skills">Skills</a></li> -->
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="buttonhead_div">
+            <button class="buttonhead hideOnMobile">Subscribe</button>
+            <button
+              class="buttonhead_icon hideOnDesktop"
+              id="hamburger"
+              onclick="showNavBar()"
+            >
+              <img src="images/icon-hamburger.svg" />
+            </button>
+            <button class="buttonhead_icon hide" id="x" onclick="showNavBar()">
+              <img src="images/icon-close.svg" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page_section">
+        <div class="section_container">
+          <div class="section_structure">
+            <h1 class="myname_h2">Selected Projects</h1>
+            <div class="projects_grid">
+              <div class="project_card">
+                <img src="images/me1.PNG" alt="Project screenshot" />
+                <h4>Portfolio Redesign</h4>
+                <p class="about_p_sm">
+                  A responsive portfolio built with HTML/CSS and a tiny JS menu.
+                </p>
+                <a class="buttonhead" href="#">View</a>
+              </div>
+              <div class="project_card">
+                <img src="images/anime.JPG" alt="Project screenshot" />
+                <h4>Landing Page</h4>
+                <p class="about_p_sm">
+                  A modern landing page with clipped imagery and clean layout.
+                </p>
+                <a class="buttonhead" href="#">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer_container">
+        <div class="footer_structure">
+          <div class="footer_div1">
+            <h4 class="h4_head">
+              Ismiley<span class="span_head">Paschal</span>
+            </h4>
+            <p>
+              Thanks for visiting! Feel free to connect with me on social media
+              to see more of my work, tutorials, and web projects in progress.
+            </p>
+          </div>
+          <div class="footer_div2">
+            <div class="icons_div">
+              <a href="https://instagram.com/paschalolisa/"
+                ><img src="images/skill-icons--instagram.svg"
+              /></a>
+              <a href="https://linkedin.com/in/olisa-agu-35857a238/"
+                ><img src="images/skill-icons--linkedin.svg"
+              /></a>
+              <a href="https://facebook.com/paschalolisa.agu/"
+                ><img src="images/raphael--facebook.svg"
+              /></a>
+              <a href="https://x.com/ismileypaschal/"
+                ><img src="images/prime--twitter.svg"
+              /></a>
+            </div>
+            <p>&copy; 2025 ismileyPaschalTech. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
